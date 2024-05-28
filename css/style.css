@@ -1,0 +1,183 @@
+/* Zerando Formatações Padrões*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*----------------------------*/
+
+html{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+body{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    background: linear-gradient(110.8deg, #14A4EE -7.36%, #126BA8 9.67%, #0C3A6B 47.81%, #081F49 76.65%);
+}
+
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+a{
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+a:hover{
+    color: #A8E910;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1400px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/*Cabeçalho*/
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.8rem;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+header #logo span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2.8rem;
+}
+
+header ul li:nth-child(1) a:nth-child(1){
+    color: #A8E910;
+}
+
+header #pesquisa{
+    display: flex;
+    flex-direction: row;
+    gap: 1.82rem;
+}
+
+header #pesquisa div{
+    border: 1px solid #FFFFFF;
+    border-radius: 13px;
+    width: 191px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 0.9rem;
+}
+
+header #pesquisa div input{
+    width: 7rem;
+    background-color: #00000000;
+    color: #FFFFFF;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    color: #FFFFFF;
+}
+
+#pesquisa div input[type="text"]::placeholder{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #ffffffa8;    
+}
+/*----------------------------*/
+
+/*Conteudo Principal do Site*/
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5rem;
+    gap: 2rem;
+}
+
+main div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    width: 500px;
+}
+
+
+main div:nth-child(1) h1{
+    width: 9rem;
+}
+
+main div:nth-child(1) button{
+    width: 203px;
+    height: 66px;
+    background: linear-gradient(90.9deg, #A8E910 4.37%, #1C7227 114.07%);
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+main div:nth-child(1) button:hover{
+    cursor: pointer;
+}
+
+main div:nth-child(2){
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+main div:nth-child(2) div{
+    width: 20rem;
+    height: 6.8rem;
+    background: linear-gradient(277.72deg, #368822 31.86%, #A8E910 107.26%);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    gap: 0rem;
+} 
+
+main div:nth-child(2) div h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+main div:nth-child(2) div h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+main div:nth-child(2) img{
+    position: absolute;
+    top: -100px;
+}
+/*-------------------------*/
